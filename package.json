@@ -15,6 +15,7 @@
     "dev": "tsup src/index.ts --format cjs,esm --sourcemap --dts --publicDir public --watch --onSuccess \"node --enable-source-maps dist/index.js\"",
     "start": "node --enable-source-maps dist/index.js",
     "build": "tsup src/index.ts --format cjs,esm --sourcemap --dts --clean --publicDir public"
+    "vercel-build": "tsup src/index.ts --format cjs,esm --sourcemap --dts --clean --publicDir public",
   },
   "author": "xiaoY23",
   "license": "ISC",
